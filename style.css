@@ -4,11 +4,20 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'EB Garamond', sans-serif;
+    font-family: 'Roboto Slab', serif;
   }
   body{   
     font=size:100%;
     background: #D9D9D9;    
   }
+.nav-logo{,
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+font-family: 'Buenard', serif;
+/* font-family: 'Fasthand', cursive;
+font-family: 'Roboto Slab', serif; */
+    }
   .navbar{
   display:flex;
   flex-direction: row;
@@ -58,7 +67,7 @@
 .container-background{
 background: #ffff;
 }
-.produtos-titulo{
+.produtos-title{
   font-weight: 400;
   font-size: 34px;
   color: #000;
@@ -77,10 +86,43 @@ background: #ffff;
   font-weight: bold;
   font-size: 16px;
   color: #000;
+  text-align: center;
 }
 .row{
   margin-left:6rem;
 }
+.card-text{
+  text-align: center;
+  font-weight: 600;
+}
+.text-tachado{
+  text-decoration: line-through;
+}
 .btn{
-  
+  margin-left: 68px;
+}
+.time-title{
+  font-weight: 400;
+  font-size: 34px;
+  color: #000;
+  margin: 10px 33px;
+  padding: 60px 0 32px 0;
+}
+.time-row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.time-name{
+  font-weight: 500;
+  font-size: 24px;
+  color: #000;
+}
+.time-cargo{
+  font-weight: 400;
+  font-size: 16px;
 }
