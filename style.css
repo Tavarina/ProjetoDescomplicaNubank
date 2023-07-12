@@ -73,6 +73,14 @@ background: #ffff;
   margin-bottom: 4rem;
   
 }
+.card-title{
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
 .row{
   margin-left:6rem;
+}
+.btn{
+  
 }
